@@ -1,3 +1,5 @@
 # devops-workflow
+Gokul raj J
+21/8/2025
 
 This repository demonstrates a complete DevOps workflow as part of my final assessment project, showcasing skills in Linux, GitHub, Docker, CI/CD, Nomad, and monitoring tools. It includes a simple Python script (hello.py) and a Linux shell script (scripts/sysinfo.sh) for system information, both tracked with Git and version-controlled on GitHub. A Dockerfile is provided to containerize the Python app, ensuring consistency across environments, along with GitHub Actions CI/CD pipeline (.github/workflows/ci.yml) that runs the script automatically on every push. For deployment, a Nomad job file (nomad/hello.nomad) is included to schedule and run the container as a service, while monitoring is implemented using Grafana Loki, with setup steps documented in (monitoring/loki_setup.txt). Each step is documented with instructions, ensuring the project can be easily reproduced end-to-end, highlighting practical DevOps knowledge in automation, containerization, orchestration, and monitoring.
