@@ -1,0 +1,6 @@
+# Loki Setup Instructions
+1. Started Loki with:
+   docker run -d --name=loki -p 3100:3100 grafana/loki:2.9.0
+2. To forward Nomad/Docker logs:
+   docker logs <container-id> --follow
+3. Access Loki on http://localhost:3100
